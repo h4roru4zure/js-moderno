@@ -17,3 +17,9 @@ const medidas = {
 const resultado = { ...producto, ...medidas};
 
 console.log(resultado);
+
+const resultado1= Object.assign(producto,medidas);
+
+console.log(resultado1);
+
+console.log(resultado1===resultado1);

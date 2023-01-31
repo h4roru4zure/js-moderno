@@ -23,3 +23,15 @@ console.log(producto.informacion.medida);
 const {nombre,precio} = producto;
 console.log(nombre);
 console.log(precio);
+
+
+//--------------------------
+// java scritp examen
+
+console.log(4=="4");
+console.log(4==="4");
+
+switch (false) { 
+	case false: console.log("Soy falso :( ") 
+	case true: console.log("Soy verdadero!") 
+}
